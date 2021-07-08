@@ -14,17 +14,16 @@ h6 {
   font-weight: 600;
 }
 
-
-#skillsnav{
+#skillsnav {
   font-family: "Poppins", sans-serif;
 }
-#educationnav{
+#educationnav {
   font-family: "Poppins", sans-serif;
 }
-#projectsnav{
+#projectsnav {
   font-family: "Poppins", sans-serif;
 }
-#contactnav{
+#contactnav {
   font-family: "Poppins", sans-serif;
 }
 @media (max-width: 565px) {
@@ -36,13 +35,12 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  color:white;
+  color: white;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 1.625em;
   position: relative;
-  
 }
 div#particles-js {
   width: 100%;
@@ -56,12 +54,11 @@ div#particles-js {
 
 .nav-link {
   font-size: 25px;
-  color: #fff
+  color: #fff;
 }
-.nav-item
- {
+.nav-item {
   font-size: 25px;
-  color: #fff
+  color: #fff;
 }
 
 p {
@@ -69,15 +66,10 @@ p {
   text-align: justify;
   text-justify: inter-word;
 }
-.intro
-{
+.intro {
   font-size: 20px;
   font-family: "Poppins", sans-serif;
 }
-
-
-
-
 
 /* .container {
   overflow: auto;
@@ -90,7 +82,7 @@ p {
   display: flex;
   align-items: center;
 }
-.bton{
+.bton {
   background-color: #007bff !important;
 }
 
@@ -128,7 +120,7 @@ p {
   transition: all 0.3s;
 }
 .social-links li a:hover {
-  color:white;
+  color: white;
   transition: all 0.3s;
 }
 
@@ -136,9 +128,7 @@ p {
   height: 20px;
 }
 
-
-
- .bold-text {
+.bold-text {
   position: absolute;
   top: -80px;
   left: 10px;
@@ -154,17 +144,17 @@ p {
   }
 }
 @media (max-width: 991px) {
-  .wrap .about-desc .bold-text {
+  .wrap .about-desc {
     display: none;
+  }
+  .intro {
+    padding: 5px;
   }
 }
 
-
-
-.headingh1{
+.headingh1 {
   color: #000;
 }
-
 
 .bg-text {
   position: absolute;
@@ -175,7 +165,7 @@ p {
   right: 0;
   bottom: 0;
   font-weight: 700 !important;
-  color:rgba(0, 0, 0, 0.08);
+  color: rgba(0, 0, 0, 0.08);
   text-transform: uppercase;
 }
 
@@ -188,33 +178,30 @@ p {
   right: 0;
   bottom: 0;
   font-weight: 700 !important;
-  color:rgba(226, 224, 224, 0.08);
+  color: rgba(226, 224, 224, 0.08);
   text-transform: uppercase;
-  position: relative
+  position: relative;
 }
 
-
-.white
-{
-
+.white {
   background-color: white;
   border-radius: 40px;
 }
 
-.white p{
+.white p {
   color: #000;
   font-size: 20px;
   font-family: "Poppins", sans-serif;
 }
-.white h2{
+.white h2 {
   color: #000;
   font-size: 30px;
 }
-.white h3{
+.white h3 {
   color: #000;
   font-size: 30px;
 }
-.white h4{
+.white h4 {
   color: #000;
   font-size: 30px;
 }
@@ -225,12 +212,12 @@ p {
 }
 @media (max-width: 991.98px) {
   .bg-text {
-    display: none;
+    font-size: 3em;
   }
 }
 @media (max-width: 767.98px) {
   .bg-text {
-  font-size: 3em;
+    font-size: 3em;
   }
   .bg2-text {
     font-size: 3em;
@@ -255,119 +242,114 @@ p {
   }
 }
 
- 
-  /* skills */
+/* skills */
 
+.skills-section {
+  padding-top: 20px;
+}
 
-    .skills-section{
-    padding-top: 20px;
-    }
-    
-    .skills-header{
-    text-align: left;
-    color: #fff;
-    padding: 1rem;
-    position: relative;
-    }
-    
-    .skills-header:after{
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100px;
-    height: 4px;
-    background-color: black;
-    border-radius: 2px;
-    }
-    
-    .skills-container{
-    display: grid;
-    grid-tempLate-columns: repeat(5, 1fr);
-    justify-content:center;
-    align-items:center;
-    text-align: center;
-    grid-gap:1rem;
-    padding: 1rem 80px;
-    font-size: 1.2rem;
-    }
-    .skills-box{
-    padding: 1rem;
-    color: #000;
-    cursor:pointer;
-    }
-    .skills-box:hover > .skills-title:after{
-      width: 30px;
-    }
+.skills-header {
+  text-align: left;
+  color: #fff;
+  padding: 1rem;
+  position: relative;
+}
 
-    .skills-box:hover > .skills-title:before{
-    width: 30px;
-    }
-    .skills-box:hover .skills-img{
-    transform: translateX(-20px);
-    }
-    
-    .skills-title{
-    display:flex;
-    flex-direction: column;
-    align-items:center;
-    padding: 0.5rem;
-    margin-bottom: 0.5rem;
-    position: relative;
-    color:#2f89fc;
-    }
-    
-    
-    
-    .skills-icons{
-    width:50px;
-    z-index:2;
-    }
-    
-    .skills-img{
-    width:90px;
-    height:90px;
-    position: relative;
-    border-radius: 45px;
-    background-color: #fff;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    transition: .5s;
-    }
-    
-    .skills-img:after{
-    content: '';
-    position:absolute;
-    top:0;
-    left: 0;
-    width:50%;
-    height:90px;
-    background: rgba(100, 100, 100, 0.5);
-    border-radius: 45px 0 0 45px;
-    }
-    .skills-title h3{
-    color: #2f89fc;
-    margin-top: 0.5rem;
-    }
-    @media screen and (max-width:990px){
-     .skills-container{
-     grid-tempLate-columns: repeat(2, 1fr);
-     padding: 2rem 50px;
-     }
-    }
-    
-    @media screen and (max-width:650px){
-     .skills-container{
-     grid-tempLate-columns:2fr;
-     padding: 2rem 50px;
-     }
-    }
-  
-    
+.skills-header:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 4px;
+  background-color: black;
+  border-radius: 2px;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-gap: 1rem;
+  padding: 1rem 80px;
+  font-size: 1.2rem;
+}
+.skills-box {
+  padding: 1rem;
+  color: #000;
+  cursor: pointer;
+}
+.skills-box:hover > .skills-title:after {
+  width: 30px;
+}
+
+.skills-box:hover > .skills-title:before {
+  width: 30px;
+}
+.skills-box:hover .skills-img {
+  transform: translateX(-20px);
+}
+
+.skills-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  position: relative;
+  color: #2f89fc;
+}
+
+.skills-icons {
+  width: 50px;
+  z-index: 2;
+}
+
+.skills-img {
+  width: 90px;
+  height: 90px;
+  position: relative;
+  border-radius: 45px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.skills-img:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 90px;
+  background: rgba(100, 100, 100, 0.5);
+  border-radius: 45px 0 0 45px;
+}
+.skills-title h3 {
+  color: #2f89fc;
+  margin-top: 0.5rem;
+}
+@media screen and (max-width: 990px) {
+  .skills-container {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 50px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .skills-container {
+    grid-template-columns: 2fr;
+    padding: 2rem 50px;
+  }
+}
+
 /*Project Cards*/
-.projectsection p{
+.projectsection p {
   color: #000;
   font-family: "Poppins", sans-serif;
 }
@@ -413,8 +395,8 @@ p {
   position: absolute;
   top: 100px;
   left: 1.25rem;
-  width:110px;
-  height:110px;
+  width: 110px;
+  height: 110px;
 }
 
 .card-custom-avatar img:hover {
@@ -423,12 +405,16 @@ p {
 
 .img-fluid {
   background-color: white;
-
 }
 
 #project1 {
-  background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(28,26,168,1) 0%, rgba(0,212,255,1) 100%);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(28, 26, 168, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 
 #project2 {
@@ -436,17 +422,31 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(28,26,168,1) 0%, rgba
 }
 
 #portfolio {
-  background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(194,186,186,1) 100%);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(194, 186, 186, 1) 100%
+  );
 }
 
 #project4 {
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,149,224,1) 31%, rgba(0,173,255,1) 77%, rgba(0,147,222,1) 85%);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 149, 224, 1) 31%,
+    rgba(0, 173, 255, 1) 77%,
+    rgba(0, 147, 222, 1) 85%
+  );
 }
 #project5 {
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(194,186,186,1) 100%);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(194, 186, 186, 1) 100%
+  );
 }
 
 #projectCards {
