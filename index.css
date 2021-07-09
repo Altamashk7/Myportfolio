@@ -313,7 +313,8 @@ p {
   height: 90px;
   position: relative;
   border-radius: 45px;
-  background-color: #fff;
+  background-color: rgb(202, 202, 202);
+
   display: flex;
   justify-content: center;
   align-items: center;
